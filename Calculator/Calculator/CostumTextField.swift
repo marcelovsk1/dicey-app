@@ -8,11 +8,21 @@
 import SwiftUI
 
 struct CostumTextField: View {
+    
+    var title: String
+    @Binding var text: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            TextField(title, text: $text)
+                .keyboardType(.decimalPad)
+                .padding()
+                .background(Color(red: 0.9, green: 0.9,
+                                  blue: 0.9))
+                .cornerRadius(10)
+        }
+        .padding(1)
     }
 }
 
-#Preview {
-    CostumTextField()
-}
+

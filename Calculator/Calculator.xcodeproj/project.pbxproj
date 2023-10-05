@@ -11,6 +11,7 @@
 		0B8E35B82AC4CDB70042E06E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8E35B72AC4CDB70042E06E /* ContentView.swift */; };
 		0B8E35BA2AC4CDBB0042E06E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B8E35B92AC4CDBB0042E06E /* Assets.xcassets */; };
 		0B8E35BD2AC4CDBB0042E06E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B8E35BC2AC4CDBB0042E06E /* Preview Assets.xcassets */; };
+		0B8E35C82AC4D19A0042E06E /* CostumTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8E35C72AC4D19A0042E06E /* CostumTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		0B8E35B72AC4CDB70042E06E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0B8E35B92AC4CDBB0042E06E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B8E35BC2AC4CDBB0042E06E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B8E35C72AC4D19A0042E06E /* CostumTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostumTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				0B8E35B52AC4CDB70042E06E /* CalculatorApp.swift */,
 				0B8E35B72AC4CDB70042E06E /* ContentView.swift */,
+				0B8E35C72AC4D19A0042E06E /* CostumTextField.swift */,
 				0B8E35B92AC4CDBB0042E06E /* Assets.xcassets */,
 				0B8E35BB2AC4CDBB0042E06E /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B8E35B82AC4CDB70042E06E /* ContentView.swift in Sources */,
+				0B8E35C82AC4D19A0042E06E /* CostumTextField.swift in Sources */,
 				0B8E35B62AC4CDB70042E06E /* CalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +276,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 972SSN6428;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 972SSN6428;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
