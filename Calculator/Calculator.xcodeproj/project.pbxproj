@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B8E35822AC49F5C0042E06E /* business_cardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8E35812AC49F5C0042E06E /* business_cardApp.swift */; };
-		0B8E35842AC49F5C0042E06E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8E35832AC49F5C0042E06E /* ContentView.swift */; };
-		0B8E35862AC49F600042E06E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B8E35852AC49F600042E06E /* Assets.xcassets */; };
-		0B8E35892AC49F600042E06E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B8E35882AC49F600042E06E /* Preview Assets.xcassets */; };
+		0B8E35B62AC4CDB70042E06E /* CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8E35B52AC4CDB70042E06E /* CalculatorApp.swift */; };
+		0B8E35B82AC4CDB70042E06E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8E35B72AC4CDB70042E06E /* ContentView.swift */; };
+		0B8E35BA2AC4CDBB0042E06E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B8E35B92AC4CDBB0042E06E /* Assets.xcassets */; };
+		0B8E35BD2AC4CDBB0042E06E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B8E35BC2AC4CDBB0042E06E /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0B8E357E2AC49F5C0042E06E /* business-card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "business-card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B8E35812AC49F5C0042E06E /* business_cardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = business_cardApp.swift; sourceTree = "<group>"; };
-		0B8E35832AC49F5C0042E06E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0B8E35852AC49F600042E06E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0B8E35882AC49F600042E06E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B8E35B22AC4CDB70042E06E /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B8E35B52AC4CDB70042E06E /* CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorApp.swift; sourceTree = "<group>"; };
+		0B8E35B72AC4CDB70042E06E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0B8E35B92AC4CDBB0042E06E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B8E35BC2AC4CDBB0042E06E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0B8E357B2AC49F5C0042E06E /* Frameworks */ = {
+		0B8E35AF2AC4CDB70042E06E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B8E35752AC49F5C0042E06E = {
+		0B8E35A92AC4CDB70042E06E = {
 			isa = PBXGroup;
 			children = (
-				0B8E35802AC49F5C0042E06E /* business-card */,
-				0B8E357F2AC49F5C0042E06E /* Products */,
+				0B8E35B42AC4CDB70042E06E /* Calculator */,
+				0B8E35B32AC4CDB70042E06E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0B8E357F2AC49F5C0042E06E /* Products */ = {
+		0B8E35B32AC4CDB70042E06E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0B8E357E2AC49F5C0042E06E /* business-card.app */,
+				0B8E35B22AC4CDB70042E06E /* Calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0B8E35802AC49F5C0042E06E /* business-card */ = {
+		0B8E35B42AC4CDB70042E06E /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				0B8E35812AC49F5C0042E06E /* business_cardApp.swift */,
-				0B8E35832AC49F5C0042E06E /* ContentView.swift */,
-				0B8E35852AC49F600042E06E /* Assets.xcassets */,
-				0B8E35872AC49F600042E06E /* Preview Content */,
+				0B8E35B52AC4CDB70042E06E /* CalculatorApp.swift */,
+				0B8E35B72AC4CDB70042E06E /* ContentView.swift */,
+				0B8E35B92AC4CDBB0042E06E /* Assets.xcassets */,
+				0B8E35BB2AC4CDBB0042E06E /* Preview Content */,
 			);
-			path = "business-card";
+			path = Calculator;
 			sourceTree = "<group>";
 		};
-		0B8E35872AC49F600042E06E /* Preview Content */ = {
+		0B8E35BB2AC4CDBB0042E06E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				0B8E35882AC49F600042E06E /* Preview Assets.xcassets */,
+				0B8E35BC2AC4CDBB0042E06E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0B8E357D2AC49F5C0042E06E /* business-card */ = {
+		0B8E35B12AC4CDB70042E06E /* Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B8E358C2AC49F600042E06E /* Build configuration list for PBXNativeTarget "business-card" */;
+			buildConfigurationList = 0B8E35C02AC4CDBB0042E06E /* Build configuration list for PBXNativeTarget "Calculator" */;
 			buildPhases = (
-				0B8E357A2AC49F5C0042E06E /* Sources */,
-				0B8E357B2AC49F5C0042E06E /* Frameworks */,
-				0B8E357C2AC49F5C0042E06E /* Resources */,
+				0B8E35AE2AC4CDB70042E06E /* Sources */,
+				0B8E35AF2AC4CDB70042E06E /* Frameworks */,
+				0B8E35B02AC4CDB70042E06E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "business-card";
-			productName = "business-card";
-			productReference = 0B8E357E2AC49F5C0042E06E /* business-card.app */;
+			name = Calculator;
+			productName = Calculator;
+			productReference = 0B8E35B22AC4CDB70042E06E /* Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0B8E35762AC49F5C0042E06E /* Project object */ = {
+		0B8E35AA2AC4CDB70042E06E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					0B8E357D2AC49F5C0042E06E = {
+					0B8E35B12AC4CDB70042E06E = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = 0B8E35792AC49F5C0042E06E /* Build configuration list for PBXProject "business-card" */;
+			buildConfigurationList = 0B8E35AD2AC4CDB70042E06E /* Build configuration list for PBXProject "Calculator" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 0B8E35752AC49F5C0042E06E;
-			productRefGroup = 0B8E357F2AC49F5C0042E06E /* Products */;
+			mainGroup = 0B8E35A92AC4CDB70042E06E;
+			productRefGroup = 0B8E35B32AC4CDB70042E06E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0B8E357D2AC49F5C0042E06E /* business-card */,
+				0B8E35B12AC4CDB70042E06E /* Calculator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0B8E357C2AC49F5C0042E06E /* Resources */ = {
+		0B8E35B02AC4CDB70042E06E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B8E35892AC49F600042E06E /* Preview Assets.xcassets in Resources */,
-				0B8E35862AC49F600042E06E /* Assets.xcassets in Resources */,
+				0B8E35BD2AC4CDBB0042E06E /* Preview Assets.xcassets in Resources */,
+				0B8E35BA2AC4CDBB0042E06E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0B8E357A2AC49F5C0042E06E /* Sources */ = {
+		0B8E35AE2AC4CDB70042E06E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B8E35842AC49F5C0042E06E /* ContentView.swift in Sources */,
-				0B8E35822AC49F5C0042E06E /* business_cardApp.swift in Sources */,
+				0B8E35B82AC4CDB70042E06E /* ContentView.swift in Sources */,
+				0B8E35B62AC4CDB70042E06E /* CalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0B8E358A2AC49F600042E06E /* Debug */ = {
+		0B8E35BE2AC4CDBB0042E06E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		0B8E358B2AC49F600042E06E /* Release */ = {
+		0B8E35BF2AC4CDBB0042E06E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,15 +264,14 @@
 			};
 			name = Release;
 		};
-		0B8E358D2AC49F600042E06E /* Debug */ = {
+		0B8E35C12AC4CDBB0042E06E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"business-card/Preview Content\"";
-				DEVELOPMENT_TEAM = 972SSN6428;
+				DEVELOPMENT_ASSET_PATHS = "\"Calculator/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -285,7 +284,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.marceloamaral.business-card";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marceloamaral.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -293,15 +292,14 @@
 			};
 			name = Debug;
 		};
-		0B8E358E2AC49F600042E06E /* Release */ = {
+		0B8E35C22AC4CDBB0042E06E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"business-card/Preview Content\"";
-				DEVELOPMENT_TEAM = 972SSN6428;
+				DEVELOPMENT_ASSET_PATHS = "\"Calculator/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -314,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.marceloamaral.business-card";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marceloamaral.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,25 +323,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B8E35792AC49F5C0042E06E /* Build configuration list for PBXProject "business-card" */ = {
+		0B8E35AD2AC4CDB70042E06E /* Build configuration list for PBXProject "Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B8E358A2AC49F600042E06E /* Debug */,
-				0B8E358B2AC49F600042E06E /* Release */,
+				0B8E35BE2AC4CDBB0042E06E /* Debug */,
+				0B8E35BF2AC4CDBB0042E06E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B8E358C2AC49F600042E06E /* Build configuration list for PBXNativeTarget "business-card" */ = {
+		0B8E35C02AC4CDBB0042E06E /* Build configuration list for PBXNativeTarget "Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B8E358D2AC49F600042E06E /* Debug */,
-				0B8E358E2AC49F600042E06E /* Release */,
+				0B8E35C12AC4CDBB0042E06E /* Debug */,
+				0B8E35C22AC4CDBB0042E06E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0B8E35762AC49F5C0042E06E /* Project object */;
+	rootObject = 0B8E35AA2AC4CDB70042E06E /* Project object */;
 }
